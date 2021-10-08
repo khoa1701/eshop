@@ -4,7 +4,7 @@ import Middleinner from '../containers/Header/middle-inner';
 import HeaderInner from '../containers/Header/header-inner';
 
 function Header() {
-  return(
+  return (
     <>
       <header className="header shop">
         <Topbar />
@@ -12,6 +12,6 @@ function Header() {
         <HeaderInner />
       </header>
     </>
-  )
+  );
 }
 export default Header;

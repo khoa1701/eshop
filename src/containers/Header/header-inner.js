@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Navbar from './nav';
 
-const HeaderInner = () => {
+function HeaderInner() {
   return (
     <div className="header-inner">
       <div className="container">
@@ -10,23 +11,55 @@ const HeaderInner = () => {
           <div className="row">
             <div className="col-lg-3">
               <div className="all-category">
-                <h3 className="cat-heading"><i className="fa fa-bars" aria-hidden="true"></i>CATEGORIES</h3>
+                <h3 className="cat-heading">
+                  <i className="fa fa-bars" aria-hidden="true" />
+                  CATEGORIES
+                </h3>
                 <ul className="main-category">
-                  <li><a href="#">New Arrivals <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                  <li>
+                    <a href="#">
+                      New Arrivals
+                      <i className="fa fa-angle-right" aria-hidden="true" />
+                    </a>
                     <ul className="sub-category">
-                      <li><a href="#">accessories</a></li>
-                      <li><a href="#">best selling</a></li>
-                      <li><a href="#">top 100 offer</a></li>
-                      <li><a href="#">sunglass</a></li>
-                      <li><a href="#">watch</a></li>
-                      <li><a href="#">man’s product</a></li>
+                      <li>
+                        <a href="#">
+                          accessories
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">best selling</a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          top 100 offer
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          sunglass
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          watch
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          man’s product
+                        </a>
+                      </li>
                       <li><a href="#">ladies</a></li>
                       <li><a href="#">westrn dress</a></li>
                       <li><a href="#">denim </a></li>
                     </ul>
                   </li>
                   <li className="main-mega">
-                    <a href="#">best selling <i className="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="#">
+                      best selling
+                      <i className="fa fa-angle-right" aria-hidden="true" />
+                    </a>
                     <ul className="mega-menu">
                       <li className="single-menu">
                         <a href="#" className="title-link">Shop Kid's</a>
@@ -46,7 +79,9 @@ const HeaderInner = () => {
                           <img src="https://via.placeholder.com/225x155" alt="#" />
                         </div>
                         <div className="inner-link">
-                          <a href="#">Watch</a>
+                          <a href="#">
+                            Watch
+                          </a>
                           <a href="#">T-shirt</a>
                           <a href="#">Hoodies</a>
                           <a href="#">Formal Pant</a>
@@ -55,7 +90,7 @@ const HeaderInner = () => {
                       <li className="single-menu">
                         <a href="#" className="title-link">Shop Women's</a>
                         <div className="image">
-                          <img src="https://via.placeholder.com/225x155" alt="#"/>
+                          <img src="https://via.placeholder.com/225x155" alt="#" />
                         </div>
                         <div className="inner-link">
                           <a href="#">Ladies Shirt</a>
@@ -66,14 +101,30 @@ const HeaderInner = () => {
                       </li>
                     </ul>
                   </li>
-                  <li><a href="#">accessories</a></li>
-                  <li><a href="#">top 100 offer</a></li>
-                  <li><a href="#">sunglass</a></li>
-                  <li><a href="#">watch</a></li>
-                  <li><a href="#">man’s product</a></li>
-                  <li><a href="#">ladies</a></li>
-                  <li><a href="#">westrn dress</a></li>
-                  <li><a href="#">denim </a></li>
+                  <li>
+                    <a href="#">accessories</a>
+                  </li>
+                  <li>
+                    <a href="#">top 100 offer</a>
+                  </li>
+                  <li>
+                    <a href="#">sunglass</a>
+                  </li>
+                  <li>
+                    <a href="#">watch</a>
+                  </li>
+                  <li>
+                    <a href="#">man’s product</a>
+                  </li>
+                  <li>
+                    <a href="#">ladies</a>
+                  </li>
+                  <li>
+                    <a href="#">westrn dress</a>
+                  </li>
+                  <li>
+                    <a href="#">denim </a>
+                  </li>
                 </ul>
               </div>
             </div>
